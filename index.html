@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CARRUSEL AUTOMATICO</title>
+<link rel="stylesheet" type="text/css" href="css/estilos.css"/><!--son 3 en laces con css-->
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+<link  rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+
+<script src="js/jquery-3.7.1.min.js"></script><!--estos script se src se vingulan Javascript-->
+<script src="js/main.js"></script>
+
+</head>
+<body>
+
+	<!--codigo inicio del menu desplegable-->
+    <header>
+	<span id="btnmenu" class="fa fa-bars" aria-hidden="true"></span>
+    <nav class="navegacion">
+    	<ul class="menu">
+        	<li class="titulomenu">Todas las categorias</li>
+        
+        		 <li><a href="index.html"><span class="fa fa-home icon-menu"></span>Incio</a></li>
+         
+         		<li class="itemsubmenu" vmenu="1"><a href="#"><span class="fa fa-suitcase icon-menu"></span>Servicio</a>
+         		<ul class="submenu">
+         			<li class="titulomenu"><a href="#"><span class="fa fa-suitcase icon-menu"></span>Servicio</a></li>
+         			<li class="regresar">Atras</li>
+                  	<li><a href="diseñoweb.html">Diseño web</a></li>
+         			<li><a href="Alojamiento.html">Alojamiento</a></li>
+         			<li><a href="Dominio.html">Dominio</a></li>
+        
+         		</ul>
+        		</li>
+         
+         
+        		 <li class="itemsubmenu" vmenu="2"><a href="#"><span class="fa fa-shopping-bag icon-menu"></span>Tienda</a>
+        		 <ul class="submenu">
+        			<li class="titulomenu"><a href="#"><span class="fa fa-shopping-bag icon-menu"></span>Tienda</a></li>
+         				<li class="regresar">Atras</li>
+         				<li><a href="Laptops.html">Laptops</a></li>
+        				 <li><a href="Samartphone.html">Samartphone</a></li>
+        				 <li><a href="ConsoledeVideojuego.html">Console de Videojuegos</a></li>
+         		</ul>
+        		</li>
+         		<li><a href="Contacto.html"><span class="fa fa-envelope icon-menu"></span>Contacto</a></li>
+        		 <li><a href="blog.html"><span class="fa fa-tag icon-menu"></span>Blog</a></li>
+         </ul>
+    </nav>
+</header>
+    <!--final del menu depslegable-->
+    <!--incio del cidog de carrucel-->
+	
+	<div class="slydershow"> <!--significa muestra carrusel-->
+    <ul class="slider">  <!--significa carrusel-->
+    	 <li>
+    		<img src="imagenes/img7.jpg" />
+       				 <section class="caption"> <!--CAPTION significa contenido del texto-->
+       		 			<h2>MI PROYECTO </h2>
+        				<p>"Proyecto EDAYO KB 22.05.2025"
+      		 			 </p>
+    	 		</section>
+  			</li>
+            
+            <li>
+            	<img src="imagenes/img6.jpg" />
+                		<section class="caption">
+                        	<h2>MI PROYECTO</h2>
+                            <p>"Proyecto EDAYO KB 22.05.2025"
+						</p>
+                </section>
+           </li>
+           
+           <li>
+           		<img src="imagenes/img5.jpg" />
+                		<section class="caption">
+                        	<h2>MI PROYECTO</h2>
+                            <p>"Proyecto EDAYO KB 22.05.2025"
+						</p>
+                </section>
+           </li>
+           
+           <li>
+           		<img src="imagenes/img1.jpg" />
+                		<section class="caption">
+                        	<h2>MI PROYECTO</h2>
+                            <p>"Proyecto EDAYO ADYD 22.05.2025"
+
+						</p>
+                </section>
+           </li>
+     </ul> 
+       <ol class="paginacion"> <!-- es la instruccion para pasar de una pagina a otra-->
+       
+       
+       <!--los cuatro LI de cada PUNTITO que estaban anteriormente aqui, los eliminé porque en el CODIGO JAVASCRIPT, en el FOR se pusieron otros CODIGOS con el fin de que sean FINITOS-->
+       		
+                     
+        </ol>
+        
+        <div class="izquierda">
+        		<span class="fa fa-chevron-left"></span>
+        </div>
+        
+        <div class="derecha">
+        		<span class="fa fa-chevron-right"></span>
+        </div>
+        
+  </div>
+
+</body>
+</html>
